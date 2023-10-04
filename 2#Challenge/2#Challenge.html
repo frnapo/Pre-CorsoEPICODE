@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati ora!</title>
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            text-align: center;
+        }
+        form {
+             display: inline-block;
+        }
+        #title{
+            color: rgb(255, 156, 17);
+        }
+        div{
+            color: #ffffff;
+        }
+        a{ 
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title" align="center"><font face="Arial, Helvetica, sans-serif">Benvenuto, registrati adesso!</font></h1>
+    <form align="center" onsubmit="alert('Registrazione inviata!')" style="width: 470px; border: 2px solid #0f0f0f; background: rgba(166, 166, 166, 0.2); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <div>
+    <p>Campi obbligatori*</p>
+    </div>
+    <div>
+    <input type="text" placeholder="Nome*" required>
+    <input type="text" placeholder="Cognome">
+    </div>
+    <br>
+    <div>
+    <input type="email" placeholder="La tua email*" required>
+    <input type="password" placeholder="La tua password*" required>
+    </div>
+    <br>
+    <div>
+    Data di nascita* <input type="date" required>
+    </div>
+    <br>
+    <div>
+    <input type="number" placeholder="Cellulare" maxlength="12">
+    </div>
+    <h4 id="title">Seleziona i tuoi generi musicali preferiti:</h4>
+    <div>
+        <input type="checkbox"> Musica classica
+        <input type="checkbox"> Jazz
+        <input type="checkbox"> Blues
+    </div>
+    <div>
+        <input type="checkbox"> Gospel
+        <input type="checkbox"> Soul
+        <input type="checkbox"> Pop
+    </div>
+    <div>
+        <input type="checkbox"> Rock and Roll
+        <input type="checkbox"> Country
+        <input type="checkbox"> Disco
+    </div>
+    <div>
+        <input type="checkbox"> Techno
+        <input type="checkbox"> Raggaeton
+        <input type="checkbox"> Salsa
+    </div>
+    <div>
+        <input type="checkbox"> Flamenco
+        <input type="checkbox"> Hip hop/Rap/Trap
+        <input type="checkbox"> Metal
+    </div>
+    <div>
+        <input type="checkbox"> Funk
+        <input type="checkbox"> Bossa Nova
+        <input type="checkbox"> Indie
+    </div>
+    <br>
+    <div>
+    <!--ipotetico link a termini e condizioni-->
+    <p style="text-decoration: underline"><a href=""><font color="white">Termini e condizioni d'uso.</font></a></p>
+    <input type="radio" required> Accetto i termini e condizioni d'uso.*
+    </div>
+
+    <br>
+
+    <div>
+    <button type="submit">Invia Registrazione</button>
+    </div>
+    <!--paragrafo vuoto per dare una riga di spazio al box-->
+    <p></p>
+    </form>
+
+</body>
+</html>
