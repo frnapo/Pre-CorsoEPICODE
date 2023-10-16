@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napoflix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06a651c8da.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+    <img id="logo" src="./FILEs/logo.png" alt="Logo">
+    <ul id="navlinks">
+        <li>Home</li>
+        <li>Serie TV</li>
+        <li>Film</li>
+    </ul>
+    <img id="search-icon" src="./FILEs/search-icon.png" alt="">
+</div>   
+<div id="preview-container">
+        <video autoplay muted>
+            <source src="./FILEs/interstellar.mp4">
+        </video>
+        <div id="preview-overlay">
+            <div id="preview-details">
+                <h3 id="preview-title">Interstellar</h3>
+                <button><i class="fas fa-play"></i> Guarda</button>
+                <button><i class="fas fa-volume-mute"></i></button>
+            </div>
+        </div>
+    </div> 
+    <div id="categories">
+        <div class="category">
+            <h3>Azione & Avventura</h3>
+            <img src="./FILEs/thumbnails/lost.jpg">
+            <img src="./FILEs/thumbnails/mad-max.jpg">
+            <img src="./FILEs/thumbnails/need-for-speed.jpg">
+        </div>
+        <div class="category">
+            <h3>Commedie</h3>
+            <img src="./FILEs/thumbnails/castaway-on-the-moon.jpg">
+            <img src="./FILEs/thumbnails/the-big-lebowski.jpg">
+            <img src="./FILEs/thumbnails/naked-gun.jpg">
+        </div>
+        <div class="category">
+            <h3>Drammatici</h3>
+            <img src="./FILEs/thumbnails/breaking-bad.jpg">
+            <img src="./FILEs/thumbnails/fight-club.jpg">
+            <img src="./FILEs/thumbnails/three-iron.jpg">
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
